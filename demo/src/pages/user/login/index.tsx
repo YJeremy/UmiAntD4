@@ -102,7 +102,7 @@ class Login extends Component<LoginProps, LoginState> {
                 },
               ]}
               onPressEnter={e => {
-                e.preventDefault();
+                //e.preventDefault();
                 this.loginForm!.validateFields(this.handleSubmit);
               }}
             />
